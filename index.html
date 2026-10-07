@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#112c36">
+  <meta name="description" content="Portafolio profesional de Fredy Gustavo Chambi Canahuire, ingeniero químico colegiado especializado en gestión ambiental, calidad del agua y recursos hídricos.">
+  <meta name="keywords" content="Fredy Gustavo Chambi Canahuire, ingeniero químico, gestión ambiental, recursos hídricos, calidad del agua, ISO 14001, ISO 50001, QGIS, Perú">
+  <meta name="author" content="Fredy Gustavo Chambi Canahuire">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Fredy Gustavo Chambi Canahuire | Gestión ambiental y recursos hídricos">
+  <meta property="og:description" content="Ingeniero químico colegiado con más de 12 años de experiencia indicados en su CV en gestión ambiental, agua y calidad.">
+  <meta property="og:image" content="assets/fredy-chambi.jpg">
+  <title>Fredy Gustavo Chambi Canahuire | Gestión ambiental y recursos hídricos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header" id="top">
+    <div class="nav-wrap"><a class="wordmark" href="#top" aria-label="Inicio, Fredy Chambi">FC<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Abrir menú de navegación"><span></span><span></span></button>
+      <nav class="primary-nav" id="primaryNav" aria-label="Navegación principal"><a href="#perfil">Perfil</a><a href="#experiencia">Experiencia</a><a href="#impacto">Impacto</a><a href="#especialidades">Especialidades</a><a href="#formacion">Formación</a><a href="#contacto" class="nav-cta">Contacto <span>↗</span></a></nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-lines" aria-hidden="true"><svg viewBox="0 0 700 600" fill="none"><path d="M783 30C575 95 493 210 323 199 155 188 97 271-12 360"/><path d="M817 79C596 144 525 260 348 250 172 239 98 319-5 403"/><path d="M829 134C627 195 557 311 373 301 184 291 106 375-1 451"/><path d="M832 192C653 251 579 364 394 360 206 357 116 432 4 503"/><path d="M840 250C668 309 602 423 414 418 222 413 128 488 12 553"/></svg></div>
+      <div class="hero-inner"><div class="hero-copy"><div class="eyebrow"><span class="eyebrow-mark"></span>INGENIERÍA · AGUA · GESTIÓN AMBIENTAL</div><h1 id="heroTitle">Criterio técnico<br>para <em>cuidar lo esencial.</em></h1><p class="hero-name" id="heroName">Fredy Gustavo Chambi Canahuire</p><p class="hero-role" id="heroRole">Ingeniero químico colegiado · Gestión ambiental y recursos hídricos</p><p class="hero-summary" id="heroSummary"></p><div class="hero-actions"><a class="button button-accent" href="#experiencia">Explorar experiencia <span>↘</span></a><button class="button button-outline" data-download-cv>Descargar CV ATS <span>↓</span></button></div><div class="hero-meta"><span><i></i> CIP 315397</span><span><i></i> Perú</span><span><i></i> Disponible para nuevos retos</span></div></div>
+        <div class="hero-portrait-wrap"><div class="portrait-frame"><img id="profilePhoto" src="assets/fredy-chambi.jpg" alt="Retrato profesional de Fredy Gustavo Chambi Canahuire" fetchpriority="high"><div class="portrait-index">PERFIL<br><b>01 — 26</b></div></div><div class="portrait-caption"><span>INGENIERÍA QUÍMICA</span><span>15° 30' S · PERÚ</span></div><div class="portrait-seal"><span>FC</span><small>AMBIENTE<br>& AGUA</small></div></div>
+      </div><a class="scroll-cue" href="#perfil"><span></span> BAJA PARA CONOCER EL PERFIL</a>
+    </section>
+
+    <div class="signal-bar"><div class="signal-inner"><span>CALIDAD DEL AGUA</span><b>·</b><span>FISCALIZACIÓN AMBIENTAL</span><b>·</b><span>SISTEMAS DE GESTIÓN</span><b>·</b><span>ANÁLISIS DE LABORATORIO</span><b>·</b><span>RECURSOS HÍDRICOS</span></div></div>
+
+    <section class="section intro-section" id="perfil"><div class="section-label"><span>01</span><i></i> PERFIL PROFESIONAL</div><div class="intro-grid"><div><h2>Experiencia técnica.<br><em>Mirada integral.</em></h2><p class="section-lede" id="profileSummary"></p></div><div class="profile-aside"><p class="aside-label">UN PERFIL QUE CONECTA</p><p>El trabajo de campo, la evidencia analítica y el cumplimiento normativo se encuentran en cada etapa de su trayectoria.</p><div class="sector-list"><span>SECTOR PÚBLICO</span><span>CONSULTORÍA</span><span>INDUSTRIA</span><span>LABORATORIOS</span></div></div></div><div class="metric-grid" id="metrics"></div></section>
+
+    <section class="experience-section" id="experiencia"><div class="section exp-head"><div class="section-label light"><span>02</span><i></i> TRAYECTORIA</div><div class="exp-title-row"><div><h2>Experiencia que<br><em>se traduce en acción.</em></h2><p class="section-lede">Responsabilidades, metodología y resultados documentados en el CV.</p></div><div class="timeline-key"><span></span> EXPERIENCIA PROFESIONAL</div></div><div class="filter-row" role="group" aria-label="Filtrar experiencia"><button class="filter-chip selected" data-filter="all">Toda la trayectoria</button><button class="filter-chip" data-filter="agua">Agua y salud</button><button class="filter-chip" data-filter="gestion">Gestión ambiental</button><button class="filter-chip" data-filter="calidad">Calidad e industria</button><button class="filter-chip" data-filter="laboratorio">Laboratorio</button></div></div><div class="timeline-wrap"><div class="timeline-line" aria-hidden="true"></div><div id="experienceList" class="experience-list"></div></div></section>
+
+    <section class="section impact-section" id="impacto"><div class="section-label"><span>03</span><i></i> RESULTADOS DOCUMENTADOS</div><div class="impact-head"><h2>Impacto y<br><em>contribuciones.</em></h2><p>Las cifras aquí mostradas aparecen explícitamente en el CV. Las demás contribuciones se describen sin atribuir resultados no cuantificados.</p></div><div id="impactMetrics" class="impact-metrics"></div><div class="contribution-grid" id="contributions"></div></section>
+
+    <section class="specialty-section" id="especialidades"><div class="section"><div class="section-label light"><span>04</span><i></i> ÁREAS DE ESPECIALIDAD</div><div class="specialty-head"><h2>Conocimiento<br><em>aplicado al territorio.</em></h2><p>Competencias desarrolladas en funciones técnicas, consultoría y análisis.</p></div><div class="skill-grid" id="skillGroups"></div><div class="software-row"><div><span class="small-label">HERRAMIENTAS INFORMÁTICAS</span><h3>Entornos de trabajo</h3></div><div class="tool-chips" id="softwareList"></div></div></div></section>
+
+    <section class="section education-section" id="formacion"><div class="section-label"><span>05</span><i></i> FORMACIÓN Y DESARROLLO</div><div class="education-head"><h2>Base técnica.<br><em>Aprendizaje continuo.</em></h2><p>Formación académica y cursos de actualización recogidos en el CV.</p></div><div class="education-grid"><div><div class="sub-label">FORMACIÓN ACADÉMICA</div><div class="education-list" id="educationList"></div><div class="sub-label languages-label">IDIOMAS</div><div class="language-list" id="languages"></div></div><div><div class="sub-label courses-label">CAPACITACIÓN RELEVANTE <span>2023 — 2026</span></div><div class="course-toolbar"><label class="course-search"><span>⌕</span><input id="courseSearch" type="search" placeholder="Buscar cursos" aria-label="Buscar cursos y capacitaciones"></label><span id="courseCount" class="course-count"></span></div><div class="course-list" id="courseList"></div><button class="load-more" id="loadMoreCourses">Ver más capacitaciones <span>↓</span></button></div></div></section>
+
+    <section class="value-section"><div class="section"><div class="section-label light"><span>06</span><i></i> VALOR PROFESIONAL</div><div class="value-grid"><h2>¿Qué puedo<br><em>aportar?</em></h2><div><p class="value-intro">Convertir información técnica y requisitos normativos en acciones claras para el cuidado de las personas, los procesos y los recursos.</p><div class="value-points"><span><b>01</b> Evaluación técnica e inspección</span><span><b>02</b> Análisis de calidad del agua</span><span><b>03</b> Informes y criterio normativo</span><span><b>04</b> Auditoría y sistemas de gestión</span><span><b>05</b> Gestión de residuos y aguas residuales</span><span><b>06</b> Monitoreo y trabajo de campo</span></div></div></div></div></section>
+
+    <section class="section contact-section" id="contacto"><div class="section-label"><span>07</span><i></i> CONTACTO</div><div class="contact-card"><div class="contact-text"><span class="small-label">CONVERSEMOS</span><h2>El siguiente paso<br><em>empieza por una conversación.</em></h2><p>Para oportunidades relacionadas con gestión ambiental, recursos hídricos, agua y calidad.</p></div><div class="contact-actions"><a class="button button-accent" id="emailButton" href="mailto:fchambic@gmail.com">Enviar correo <span>↗</span></a><a class="contact-detail" id="emailText" href="mailto:fchambic@gmail.com">fchambic@gmail.com</a><a class="contact-detail" id="phoneText" href="tel:+51945007207">+51 945 007 207</a><span class="contact-detail">Perú</span><button class="button button-download-light" data-download-cv>Descargar CV ATS <span>↓</span></button></div><div class="contact-contour" aria-hidden="true"></div></div><div class="hobbies-row"><span>INTERESES PERSONALES</span><div id="hobbies"></div></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#top">FC<span>.</span></a><span>PORTAFOLIO PROFESIONAL · FREDY GUSTAVO CHAMBI CANAHUIRE</span><a href="#top">VOLVER ARRIBA ↑</a></footer>
+  <a class="floating-contact" href="mailto:fchambic@gmail.com" aria-label="Enviar correo a Fredy Gustavo Chambi"><span class="mail-icon">✉</span><span class="floating-label">Hablemos</span></a>
+
+  <div class="modal" id="galleryModal" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Cerrar ventana">×</button><div class="modal-content" id="modalContent"></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
